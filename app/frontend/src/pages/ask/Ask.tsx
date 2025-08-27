@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
 import { Panel, DefaultButton, Spinner } from "@fluentui/react";
 
+import appLogo from "../../assets/rpgeol-logo.png";
 import styles from "./Ask.module.css";
 
 import { askApi, configApi, ChatAppResponse, ChatAppRequest, RetrievalMode, VectorFields, GPT4VInput, SpeechConfig } from "../../api";
@@ -288,15 +289,18 @@ export function Component(): JSX.Element {
                     {showUserUpload && <UploadFile className={styles.commandButton} disabled={!loggedIn} />}
                     <SettingsButton className={styles.commandButton} onClick={() => setIsConfigPanelOpen(!isConfigPanelOpen)} />
                 </div>
-                <h1 className={styles.askTitle}>{t("askTitle")}</h1>
-                <div className={styles.askQuestionInput}>
-                    <QuestionInput
-                        placeholder={t("gpt4vExamples.placeholder")}
-                        disabled={isLoading}
-                        initQuestion={question}
-                        onSend={question => makeApiRequest(question)}
-                        showSpeechInput={showSpeechInput}
-                    />
+                <div className={styles.askBox}>
+                    <img src={appLogo} alt="App logo" width="281" height="108" />
+                    <h1 className={styles.askTitle}>{t("askTitle")}</h1>
+                    <div className={styles.askQuestionInput}>
+                        <QuestionInput
+                            placeholder={t("gpt4vExamples.placeholder")}
+                            disabled={isLoading}
+                            initQuestion={question}
+                            onSend={question => makeApiRequest(question)}
+                            showSpeechInput={showSpeechInput}
+                        />
+                    </div>
                 </div>
             </div>
             <div className={styles.askBottomSection}>
