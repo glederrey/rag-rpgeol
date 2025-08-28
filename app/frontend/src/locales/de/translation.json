@@ -47,7 +47,7 @@
         "1": "Vergleichen Sie die Auswirkungen von Zinssätzen und BIP auf die Finanzmärkte.",
         "2": "Wie ist der erwartete Trend für den S&P 500 Index in den nächsten fünf Jahren? Vergleichen Sie ihn mit der vergangenen S&P 500 Performance",
         "3": "Können Sie eine Korrelation zwischen Ölpreisen und Börsentrends identifizieren?",
-        "placeholder": "Beispiel: Deckt mein Plan jährliche Augenuntersuchungen ab?"
+        "placeholder": "Neue Frage eingeben (z.B. welche geologischen Gefahren wurden identifiziert?)"
     },
     "generatingAnswer": "Antwort wird generiert",
     "citationWithColon": "Zitat:",
