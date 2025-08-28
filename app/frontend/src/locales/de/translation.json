@@ -37,10 +37,10 @@
     "chatEmptyStateTitle": "Chatten Sie mit Ihren Daten",
     "chatEmptyStateSubtitle": "Fragen Sie alles oder probieren Sie ein Beispiel",
     "defaultExamples": {
-        "1": "Was ist in meinem Northwind Health Plus Plan enthalten, was nicht im Standard enthalten ist?",
-        "2": "Was passiert bei einer Leistungsbeurteilung?",
-        "3": "Was macht ein Produktmanager?",
-        "placeholder": "Geben Sie eine neue Frage ein (z.B. deckt mein Plan jährliche Augenuntersuchungen ab?)"
+        "1": "Wie hoch ist die hydraulische Durchlässigkeit des Aquifers in Visp?",
+        "2": "Welche Hangstabilitätsrisiken bestehen für die Baustelle?",
+        "3": "Welche Grundwasserschutzmassnahmen sind erforderlich?",
+        "placeholder": "Neue Frage eingeben (z.B. welche geologischen Gefahren wurden identifiziert?)"
     },
     "askTitle": "Fragen Sie Ihre Daten",
     "gpt4vExamples": {
