@@ -87,7 +87,7 @@ export function Component(): JSX.Element {
             setShowGPT4VOptions(config.showGPT4VOptions);
             setUseSemanticRanker(config.showSemanticRankerOption);
             setShowSemanticRankerOption(config.showSemanticRankerOption);
-            //setUseQueryRewriting(config.showQueryRewritingOption);
+            setUseQueryRewriting(config.showQueryRewritingOption);
             setShowQueryRewritingOption(config.showQueryRewritingOption);
             setShowReasoningEffortOption(config.showReasoningEffortOption);
             if (config.showReasoningEffortOption) {
