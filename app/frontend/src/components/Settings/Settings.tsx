@@ -269,7 +269,12 @@ export const Settings = ({
                 onChange={(_ev?: React.FormEvent<HTMLElement | HTMLInputElement>, option?: IDropdownOption) => onChange("includeCategory", option?.key || "")}
                 aria-labelledby={includeCategoryId}
                 options={[
-                    { key: "", text: t("labels.includeCategoryOptions.all") }
+                    { key: "", text: t("labels.includeCategoryOptions.all") },
+                    { key: "hydrogeologie_franzosisch", text: t("Hydrogeologie Französisch") },
+                    { key: "hydrogeologie_deutsch", text: t("Hydrogeologie Deutsch") },
+                    { key: "naturgefahren", text: t("Naturgefahren") },
+                    { key: "erdwarme", text: t("Erdwärme") },
+                    { key: "geotechnik", text: t("Geotechnik") }
                     // { key: "example", text: "Example Category" } // Add more categories as needed
                 ]}
                 onRenderLabel={props => renderLabel(props, includeCategoryId, includeCategoryFieldId, t("helpTexts.includeCategory"))}
