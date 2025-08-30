@@ -31,6 +31,9 @@ class File:
     def filename(self):
         return os.path.basename(self.content.name)
 
+    def folder(self):
+        return os.path.basename(os.path.dirname(self.content.name))
+
     def file_extension(self):
         return os.path.splitext(self.content.name)[1]
 
